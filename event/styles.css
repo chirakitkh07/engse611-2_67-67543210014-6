@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#mainImage {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    display: block;
+    margin: 20px auto;
+}
+
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 75px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    border-color: red;
+}
